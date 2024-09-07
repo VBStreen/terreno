@@ -1,0 +1,26 @@
+name: StreenBaseClans
+version: 1.0
+main: br.cotoko.clanterrenos.Main
+commands:
+  claim:
+    description: Reivindica um terreno.
+    usage: /claim
+  upgrade:
+    description: upgrade um terreno.
+    usage: /upgrade
+  dispensar:
+    description: dispensar um terreno.
+    usage: /dispensar
+  base:
+    description: base um terreno.
+    usage: /base
+  menu:
+    description: menu terreno.
+    usage: /menu
+permissions:
+  terrainplugin.claim:
+    description: Permite ao jogador reivindicar terrenos.
+    default: true
+  terrainplugin.unclaim:
+    description: Permite ao jogador liberar terrenos.
+    default: true
